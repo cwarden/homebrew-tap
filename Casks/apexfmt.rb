@@ -2,11 +2,11 @@ cask "apexfmt" do
   arch arm: "arm64", intel: "amd64"
   os macos: "darwin", linux: "linux"
 
-  version "0.63.0"
-  sha256 arm:          "ebbd98a2c3a0daa87d2ef08db4faaec97464158058d21f56fcaf5bf9a939264d",
-         x86_64:       "95816ef1cd8a6841f9e80dfb0d9db5eec8963b97650effc3dedb6909259c19f7",
-         arm64_linux:  "7161323748cb2b8088f5a20bff5a472adbf5e8e7be363b9e24a660b23d10f9c6",
-         x86_64_linux: "a7ba6b8d0845d4dded40feaa2d26a375d0d6a246d4bbd7861c60f43f811b5feb"
+  version "0.64.0"
+  sha256 arm:          "303dd14c6e11a240dce63603bff211368b3f57cd15bc70b5efd90544a33a2824",
+         x86_64:       "e9e0f2eed80a2988a1c54ca4716e24b22c266fb9623290779de9606dbfcc1e67",
+         arm64_linux:  "0e5bba1577310a7f54de813e04ff6aaaad553bd6423226558709e6dbd1491960",
+         x86_64_linux: "f7a3f20243dd71fb96743f528be08028069b8165a235671710bae6e66c0a652c"
 
   url "https://github.com/octoberswimmer/apexfmt/releases/download/v#{version}/apexfmt_#{os}_#{arch}_v#{version}.zip"
   name "apexfmt"
