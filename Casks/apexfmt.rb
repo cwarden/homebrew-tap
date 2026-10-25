@@ -2,7 +2,7 @@ cask "apexfmt" do
   arch arm: "arm64", intel: "amd64"
   os macos: "darwin", linux: "linux"
 
-  version "0.68.0"
+  version "0.69.0"
   sha256 arm:          "dfab32bdaf31769030a2b8653e06dfba4546d8e13b825c1e2d02ad8fdfff2f52",
          x86_64:       "f5d572aa4ff2c566b7727270cf7f584c91db96fd46128435c93b4bd14e2b2e42",
          arm64_linux:  "0405594bc0764301fc769a373c82a708cfb53409f56ba07599f0484d1ca50ca2",
