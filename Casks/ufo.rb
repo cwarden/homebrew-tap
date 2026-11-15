@@ -2,11 +2,11 @@ cask "ufo" do
   arch arm: "arm64", intel: "amd64"
   os macos: "darwin", linux: "linux"
 
-  version "0.0.1"
-  sha256 arm:          "13b335c5b8fa3accf114cf1af4741b662e95bed899909095f9255b258174cd61",
-         x86_64:       "983341bfd46654a60dcd2e793effc870f5d519a12f1fa23f70292615200ec0d1",
-         arm64_linux:  "9689f6c405a5506153cbbb8826b50b221f0d11d4db201903fd764c94cb6273e9",
-         x86_64_linux: "45fc56bd119b720b59bdefe43f37cc0ad1c0f7af2e1212338dfd147c07ffb13a"
+  version "0.0.2"
+  sha256 arm:          "dbe520fd0ecc5df124e7e9ae76591ee328086d74e0a446589e9fe0ec2092fc50",
+         x86_64:       "70dd3abf00cd29e9b165fd234c39bfc4a290524cac2abbaaa84449440929bb14",
+         arm64_linux:  "aa2d4725592cb0e92a5c2f0c57962af44732e57391c46cc4a1a0eaa60819d012",
+         x86_64_linux: "cc11ec8e8db85478ab7121e7a5c00e7f8edb63bc8a83087ee5a64fa999a52b22"
 
   url "https://github.com/octoberswimmer/ufo/releases/download/v#{version}/ufo_#{os}_#{arch}_v#{version}.zip"
   name "ufo"
