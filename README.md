@@ -20,5 +20,6 @@ brew "<cask>"
 | aer | Apex Execution Runtime | [octoberswimmer/aer-dist](https://github.com/octoberswimmer/aer-dist) | `brew install octoberswimmer/tap/aer` |
 | apexfmt | Format Apex code automatically | [octoberswimmer/apexfmt](https://github.com/octoberswimmer/apexfmt) | `brew install octoberswimmer/tap/apexfmt` |
 | batchforce | Make bulk updates in Salesforce using the Bulk API | [octoberswimmer/batchforce](https://github.com/octoberswimmer/batchforce) | `brew install octoberswimmer/tap/batchforce` |
+| force | Command-line interface to Salesforce | [ForceCLI/force](https://github.com/ForceCLI/force) | `brew install octoberswimmer/tap/force` |
 | ro | Salesforce backup tool | [octoberswimmer/ro-dist](https://github.com/octoberswimmer/ro-dist) | `brew install octoberswimmer/tap/ro` |
 | ufo | Render HTML and CSS to PDF with a Go port of Flying Saucer | [octoberswimmer/ufo](https://github.com/octoberswimmer/ufo) | `brew install octoberswimmer/tap/ufo` |
